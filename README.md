@@ -2,15 +2,13 @@
 
 ## Liquid Labor Market
 
-Servésa is a marketplace designed to increase the transparency of the availability, pricing, and scheduling of labor. 
+Servésa is designed to bring transparency to the availability, pricing, and scheduling of labor. By creating a new type of employment contract we can reduce transaction costs for both pricipals and agents and unlock new opportunities for profitable cooperation. 
 
-By creating a new type of employment contract we can reduce transaction costs and unlock new opportunities for profitable cooperation.
+As this strategy focuses on reducing transaction costs we expect it to be most valuable when applied to areas where a) there is high transaction costs around finding and retaining labor, b) work is intermittent, and c) where the agents are somewhat interchangeable but difficult to directly compare (e.g., software developers).
 
 ## Implementation
 
-We'll create a unique token to represent each agent's unit of work. We'll then create financial incentives around how tokens are priced and redeemed to encourage long-term relationships between prinicipals and agents.
-
-As this strategy focuses on reducing transaction costs we expect it will be most valuable when applied to areas where a) there is high transaction costs around finding and retaining labor, b) work is intermittent, and c) where the agents are somewhat interchangeable but difficult to directly compare (e.g., software developers).
+We'll create a unique token to represent each agent's unit of work. We'll then create financial incentives around how tokens are priced and redeemed to better align the incentives of prinicipals and agents.
 
 ## Example
 
@@ -55,13 +53,7 @@ Holding tokens has several advantages:
 
 ### Scheduling, and honoring the priority of tokens
 
-From the point of view of the agent (Alice) it is smart to encourage pricipals to hold tokens because when tokens are sold back to the contract the token is exchanged for 1/n of the contract balance. Each token that is bought and held increase's the unit price of Alice's labor.
-
-For a principal, holding tokens is a balance between 
-
-is essentially holding your place in line and pricipals will not wait in a line that is not honored.
-
-This same dynamic will apply to situations where there agent would prefer not to take the work. Pricipals always have the option to sell their tokens back to the contract for a refund, but this is not ideal for the agent in two ways: 1) the total contract balance is reduced which reduces the agents marginal rate, and 2) it acts as a signal to token holders and prospective token holders that there is uncertainty around the redemption of the token which will tend to depress the price.
+From the point of view of the agent (Alice) it is smart to encourage pricipals to hold tokens because each tokens is worth 1/n of the contract balance, therefore each token that is bought and held increase's the unit price of Alice's labor. If an agent is not honoring the priority of their tokens then pricipals will be less likely to hold them thereby decreasing the agent's unit wage. This same dynamic will apply to situations where there agent would prefer not to take the work - although the agent can refuse to honor their tokens this action will be visible to other pricpals and will tend to depress the price.
 
 ### Market-tuning parameters
 
