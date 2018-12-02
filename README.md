@@ -2,17 +2,17 @@
 
 ## Liquid Labor Market
 
-Servésa is designed to bring transparency to the availability, pricing, and scheduling of labor. By creating a new type of employment contract we can reduce transaction costs for both pricipals and agents and unlock new opportunities for profitable cooperation. 
+Servésa is designed to bring transparency to the availability, pricing, and scheduling of labor. By creating a new type of employment contract we can reduce transaction costs for both principals and agents and unlock new opportunities for profitable cooperation. 
 
 As this strategy focuses on reducing transaction costs we expect it to be most valuable when applied to areas where a) there is high transaction costs around finding and retaining labor, b) work is intermittent, and c) where the agents are somewhat interchangeable but difficult to directly compare (e.g., software developers).
 
 ## Implementation
 
-We'll create a unique token to represent each agent's unit of work. We'll then create financial incentives around how tokens are priced and redeemed to better align the incentives of prinicipals and agents.
+We'll create a unique token to represent each agent's unit of work. We'll then create financial incentives around how tokens are priced and redeemed to better align the incentives of principals and agents.
 
 ## Example
 
-1.  Alice is smart contract security specialist. She creates a profile on Servesa to advertise her availablity and to handle the billing for her services.
+1.  Alice is smart contract security specialist. She creates a profile on Servesa to advertise her availability and to handle the billing for her services.
 
     _Behind the scenes, a smart contract is deployed that creates a unique, [non-fungible token](https://hackernoon.com/an-overview-of-non-fungible-tokens-5f140c32a70a) to represent Alice's work. Each token is sequential and the sequence number represents the order that Alice is expected to redeem them. If, for example, two token holders were both trying to schedule Alice for an upcoming project, Alice is expected to honor the earlier tokens first. There is no requirement to redeem the tokens in order – it simply acts as a signal to help Alice and the token holders coordinate scheduling (it is also in Alice's economic interest for her to honor the priority of the tokens – more on that later.)_
 
@@ -36,7 +36,7 @@ We'll create a unique token to represent each agent's unit of work. We'll then c
 - **More flexibility:** Alice can limit the number of tokens that she is willing to sell or redeem in a given period
 - **Transparent Pricing:** Pricing is determined by verifiable signals of demand for Alice's services
 
-### Advantages for pricipals (Bob)
+### Advantages for principals (Bob)
 
 - **Transparent Escrow:** Only pay for the time that you use: sell tokens back to the contract for a refund at any time
 - **Speculative Hiring:** Find and retain employees before they are needed
@@ -46,14 +46,13 @@ We'll create a unique token to represent each agent's unit of work. We'll then c
 
 ### Incentive to hold tokens
 
-Holding tokens has several advantages:
 - Earlier tokens cost less but promise the same amount of labor (curved-bonding pricing)
 - Earlier tokens have higher priority when scheduling services
 - Earlier tokens have an opportunity for profit if/when the tokens are sold back to the contract or sold to a third-party
 
 ### Scheduling, and honoring the priority of tokens
 
-From the point of view of the agent (Alice) it is smart to encourage pricipals to hold tokens because each tokens is worth 1/n of the contract balance, therefore each token that is bought and held increase's the unit price of Alice's labor. If an agent is not honoring the priority of their tokens then pricipals will be less likely to hold them thereby decreasing the agent's unit wage. This same dynamic will apply to situations where there agent would prefer not to take the work - although the agent can refuse to honor their tokens this action will be visible to other pricpals and will tend to depress the price.
+From the point of view of the agent (Alice) it is smart to encourage principals to hold tokens because each token is worth 1/n of the contract balance, therefore each token that is bought and held increases the unit price of Alice's labor. If an agent is not honoring the priority of their tokens then principals will be less likely to hold them thereby decreasing the agent's unit wage. This same dynamic will apply to situations where there agent would prefer not to take the work - although the agent can refuse to honor their tokens this action will be visible to other principals and will tend to depress the price.
 
 ### Market-tuning parameters
 
@@ -61,13 +60,13 @@ The following parameters can be used to shape market dynamics (these fees will b
 
 *   Transaction fees: each agent contract could choose to implement fees on each token transaction (i.e., 'buy', 'sell', and 'transfer') in order to reduce the velocity of the token. From the agent's perspective, this friction may be desirable in order to reduce speculation.
 
-*   Demmurage: each agent contract could choose to implement a form of [demmurage](https://en.wikipedia.org/wiki/Demurrage_(currency)) to increase the cost of their holding tokens. From the agent's perspective, this friction may be desirable in order to limit the incentive for pricipals to purchase and sit on the agent's tokens.
+*   Demurrage: each agent contract could choose to implement a form of [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) to increase the cost of their holding tokens. From the agent's perspective, this friction may be desirable in order to limit the incentive for principals to purchase and sit on the agent's tokens.
 
 ## Other considerations
 
 ### Teams
 
-The example above uses a single person (Alice) as an example of an agent but this construction will work even better for teams becuase of the inherent scarcity of 'priority' – if a sought-after group chooses to create a team they will multiply the effect of the priority tokens.
+The example above uses a single person (Alice) as an example of an agent but this construction will work even better for teams because of the inherent scarcity of 'priority' – if a sought-after group chooses to create a team they will multiply the effect of the priority tokens.
 
 ### Speculation
 
