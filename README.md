@@ -34,28 +34,24 @@ As this strategy focuses on reducing transaction costs we expect it will be most
 
 ### Advantages for agents (Alice)
 
-- Higher rates: The 'sell' price of the token will include both the base rate for their services as well as the premium that token-holders pay to hold early tokens (i.e., to hold their place in line).
-- More flexibility: Alice can limit the number of tokens that she is willing to sell in order to maintain freedom
-- Transperant Pricing: Verifiable signals of quality and demand for services
+- **Higher rates:** The 'sell' price of the token will include both the base rate for their services as well as the premium that token-holders pay to hold early tokens (i.e., to hold their place in line).
+- **More flexibility:** Alice can limit the number of tokens that she is willing to sell or redeem in a given period
+- **Transparent Pricing:** Pricing is determined by verifiable signals of demand for Alice's services
 
 ### Advantages for pricipals (Bob)
 
-- Only pay for the time that you use, and only pay when you use it
-- Find and retain employees before they are needed
-- Possibility of making a profit if the early tokens become more valuable
-
-### Teams
-
-The example above uses a single person (Alice) as an example of an agent but this construction will work even better for teams becuase of the inherent scarcity of 'priority' – if a sought-after group chooses to create a team they will multiply the effect of the priority tokens.
+- **Transparent Escrow:** Only pay for the time that you use: sell tokens back to the contract for a refund at any time
+- **Speculative Hiring:** Find and retain employees before they are needed
+- **Resell tokens:** Possibility of making a profit if the early tokens become more valuable
 
 ## Market Dynamics
 
 ### Incentive to hold tokens
 
-Buying and holding tokens has several advantages:
+Holding tokens has several advantages:
 - Earlier tokens cost less but promise the same amount of labor (curved-bonding pricing)
 - Earlier tokens have higher priority when scheduling services
-- Opportunity for profit if the tokens are sold back to the contract for a refund
+- Earlier tokens have an opportunity for profit if/when the tokens are sold back to the contract or sold to a third-party
 
 ### Scheduling, and honoring the priority of tokens
 
@@ -74,6 +70,12 @@ The following parameters can be used to shape market dynamics (these fees will b
 *   Transaction fees: each agent contract could choose to implement fees on each token transaction (i.e., 'buy', 'sell', and 'transfer') in order to reduce the velocity of the token. From the agent's perspective, this friction may be desirable in order to reduce speculation.
 
 *   Demmurage: each agent contract could choose to implement a form of [demmurage](https://en.wikipedia.org/wiki/Demurrage_(currency)) to increase the cost of their holding tokens. From the agent's perspective, this friction may be desirable in order to limit the incentive for pricipals to purchase and sit on the agent's tokens.
+
+## Other considerations
+
+### Teams
+
+The example above uses a single person (Alice) as an example of an agent but this construction will work even better for teams becuase of the inherent scarcity of 'priority' – if a sought-after group chooses to create a team they will multiply the effect of the priority tokens.
 
 ### Speculation
 
