@@ -2,13 +2,15 @@
 
 ## Liquid Labor Market
 
-Servésa is a marketplace that provides radical transperancy around the availability, pricing and scheduling of labor. By creating a new type of employment contract we can reduce transaction costs and unlock new opportunities for profitable cooperation.
+Servésa is a marketplace designed to increase the transparency of the availability, pricing, and scheduling of labor. 
+
+By creating a new type of employment contract we can reduce transaction costs and unlock new opportunities for profitable cooperation.
 
 ## Implementation
 
 We'll create a unique token to represent each agent's unit of work. We'll then create financial incentives around how tokens are priced and redeemed to encourage long-term relationships between prinicipals and agents.
 
-As this strategy focuses on reducing transaction costs we expect it will be most valuable when applied to areas where a) there is high transaction costs around finding and retaining labor, b) work is intermittent, and c) where the services are somewhat interchangeable but difficult to compare directly (e.g., software developers).
+As this strategy focuses on reducing transaction costs we expect it will be most valuable when applied to areas where a) there is high transaction costs around finding and retaining labor, b) work is intermittent, and c) where the agents are somewhat interchangeable but difficult to directly compare (e.g., software developers).
 
 ## Example
 
@@ -32,19 +34,15 @@ As this strategy focuses on reducing transaction costs we expect it will be most
 
 ### Advantages for agents (Alice)
 
-*   Higher rates: The 'sell' price of the token will include both the base rate for their services as well as the premium that token-holders pay to hold early tokens (i.e., to hold their place in line).
-
-*   More flexibility: Alice can limit the number of tokens that she is willing to sell in order to maintain freedom
-
-*   Transperant Pricing: Verifiable signals of quality and demand for services
+- Higher rates: The 'sell' price of the token will include both the base rate for their services as well as the premium that token-holders pay to hold early tokens (i.e., to hold their place in line).
+- More flexibility: Alice can limit the number of tokens that she is willing to sell in order to maintain freedom
+- Transperant Pricing: Verifiable signals of quality and demand for services
 
 ### Advantages for pricipals (Bob)
 
-*   Only pay for the time that you use, and only pay when you use it
-
-*   Find and retain employees before they are needed
-
-*   Possibility of making a profit if the early tokens become more valuable
+- Only pay for the time that you use, and only pay when you use it
+- Find and retain employees before they are needed
+- Possibility of making a profit if the early tokens become more valuable
 
 ### Teams
 
@@ -54,11 +52,18 @@ The example above uses a single person (Alice) as an example of an agent but thi
 
 ### Incentive to hold tokens
 
-For principals, buying and holding tokens means that they pay less for each token (curved-bonding pricing) and that they have higher priority when they choose to redeem the service.
+Buying and holding tokens has several advantages:
+- Earlier tokens cost less but promise the same amount of labor (curved-bonding pricing)
+- Earlier tokens have higher priority when scheduling services
+- Opportunity for profit if the tokens are sold back to the contract for a refund
 
 ### Scheduling, and honoring the priority of tokens
 
-When tokens are sold back to the contract the token is exchanged for 1/n of the contract balance so from the point of view of the agent (Alice) it is smart to encourage pricipals to hold tokens. For a principal, holding tokens is essentially holding your place in line and pricipals will not wait in a line that is not honored.
+From the point of view of the agent (Alice) it is smart to encourage pricipals to hold tokens because when tokens are sold back to the contract the token is exchanged for 1/n of the contract balance. Each token that is bought and held increase's the unit price of Alice's labor.
+
+For a principal, holding tokens is a balance between 
+
+is essentially holding your place in line and pricipals will not wait in a line that is not honored.
 
 This same dynamic will apply to situations where there agent would prefer not to take the work. Pricipals always have the option to sell their tokens back to the contract for a refund, but this is not ideal for the agent in two ways: 1) the total contract balance is reduced which reduces the agents marginal rate, and 2) it acts as a signal to token holders and prospective token holders that there is uncertainty around the redemption of the token which will tend to depress the price.
 
