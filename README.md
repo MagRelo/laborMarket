@@ -56,11 +56,9 @@ From the point of view of the agent (Alice) it is smart to encourage principals 
 
 ### Market-tuning parameters
 
-The following parameters can be used to shape market dynamics (these fees will be split between the agent contract and the Servésa platform.)
+*   **Transaction fees:** each agent contract could choose to implement fees on each token transaction (i.e., 'buy', 'sell', and 'transfer') in order to reduce the velocity of the token. From the agent's perspective, this friction may be desirable in order to reduce speculation.
 
-*   Transaction fees: each agent contract could choose to implement fees on each token transaction (i.e., 'buy', 'sell', and 'transfer') in order to reduce the velocity of the token. From the agent's perspective, this friction may be desirable in order to reduce speculation.
-
-*   Demurrage: each agent contract could choose to implement a form of [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) to increase the cost of their holding tokens. From the agent's perspective, this friction may be desirable in order to limit the incentive for principals to purchase and sit on the agent's tokens.
+*   **Demurrage:** each agent contract could choose to implement a form of [demurrage](https://en.wikipedia.org/wiki/Demurrage_(currency)) to increase the cost of their holding tokens. From the agent's perspective, this friction may be desirable in order to limit the incentive for principals to purchase and sit on the agent's tokens.
 
 ## Other considerations
 
