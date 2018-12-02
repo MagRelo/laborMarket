@@ -50,7 +50,7 @@ We'll create a unique token to represent each agent's unit of work. We'll then c
 - Earlier tokens have higher priority when scheduling services
 - Earlier tokens have an opportunity for profit if/when the tokens are sold back to the contract or sold to a third-party
 
-### Scheduling, and honoring the priority of tokens
+### Incentive to honor tokens
 
 From the point of view of the agent (Alice) it is smart to encourage principals to hold tokens because each token is worth 1/n of the contract balance, therefore each token that is bought and held increases the unit price of Alice's labor. If an agent is not honoring the priority of their tokens then principals will be less likely to hold them thereby decreasing the agent's unit wage. This same dynamic will apply to situations where there agent would prefer not to take the work - although the agent can refuse to honor their tokens this action will be visible to other principals and will tend to depress the price.
 
